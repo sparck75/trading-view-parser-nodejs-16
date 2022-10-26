@@ -96,8 +96,6 @@ export enum EXCHANGES_ENUM {
   'MEXC' = 'MEXC',
   'KUCOIN' = 'KUCOIN',
   'FTX' = 'FTX',
-  'BITGET' = 'BITGET',
-
 }
 
 export enum SCREENERS_ENUM {

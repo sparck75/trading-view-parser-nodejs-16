@@ -6,7 +6,7 @@ import {
 import { TradingViewScan } from '../src/main';
 // import axios from 'axios';
 // import { promises as fs } from 'fs';
-describe('response parser', () => {
+describe('BINANCE response parser', () => {
   it('delays the greeting by 2 seconds', async () => {
     const result = await new TradingViewScan(
       SCREENERS_ENUM['crypto'],
@@ -25,3 +25,5 @@ describe('response parser', () => {
     // console.log(data);
   });
 });
+
+
