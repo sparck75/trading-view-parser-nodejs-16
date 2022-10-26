@@ -86,11 +86,18 @@ export const REQUEST_INDICATORS = [
 ];
 
 export enum EXCHANGES_ENUM {
-  'NASDAQ' = 'NASDAQ',
-  'FX_IDC' = 'FX_IDC',
-  'NYSE' = 'NYSE',
   'BINANCE' = 'BINANCE',
   'BITTREX' = 'BITTREX',
+  'BYBIT' = 'BYBIT',
+  'GATEIO' = 'GATEIO',
+  'HITBTC' = 'HITBTC',
+  'POLONIEX' = 'POLONIEX',
+  'BINGX' = 'BINGX',
+  'MEXC' = 'MEXC',
+  'KUCOIN' = 'KUCOIN',
+  'FTX' = 'FTX',
+  'BITGET' = 'BITGET',
+
 }
 
 export enum SCREENERS_ENUM {
@@ -103,6 +110,7 @@ export enum INTERVALS_ENUM {
   '1m' = '1m',
   '5m' = '5m',
   '15m' = '15m',
+  '30m' = '30m',
   '1h' = '1h',
   '4h' = '4h',
   '1W' = '1W',
