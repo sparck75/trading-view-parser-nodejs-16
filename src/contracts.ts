@@ -96,6 +96,14 @@ export enum EXCHANGES_ENUM {
   'MEXC' = 'MEXC',
   'KUCOIN' = 'KUCOIN',
   'FTX' = 'FTX',
+  'BITGET' = 'BITGET',
+  'COINEX' = 'COINEX',
+  'BITMEX' = 'BITMEX',
+  'BINANCEUS' = 'BINANCEUS',
+  'ASCENDEX' = 'ASCENDEX',
+  'PHEMEX' = 'PHEMEX',
+  'WOONETWORK' = 'WOONETWORK',  
+  'HUOBI' = 'HUOBI',
 }
 
 export enum SCREENERS_ENUM {
