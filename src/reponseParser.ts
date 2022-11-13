@@ -36,13 +36,13 @@ export class ParseTAResponse {
     }
     // Stoch %K
     if (this.ifNullNotIn(5, 9)) {
-      computed_oscillators['STOCH.K'] = Compute.Stoch(
+      computed_oscillators['STOCHK'] = Compute.Stoch(
         this.values[5],
         this.values[6],
         this.values[7],
         this.values[8],
       );
-      oscillators_counter[computed_oscillators['STOCH.K']] += 1;
+      oscillators_counter[computed_oscillators['STOCHK']] += 1;
     }
     // CCI (20)
     if (this.ifNullNotIn(9, 11)) {
@@ -86,13 +86,13 @@ export class ParseTAResponse {
     }
     // Stoch RSI
     if (this.values[22] !== null) {
-      computed_oscillators['Stoch.RSI'] = Compute.Simple(this.values[22]);
-      oscillators_counter[computed_oscillators['Stoch.RSI']] += 1;
+      computed_oscillators['StochRSI'] = Compute.Simple(this.values[22]);
+      oscillators_counter[computed_oscillators['StochRSI']] += 1;
     }
     // W%R
     if (this.values[24] != null) {
-      computed_oscillators['W%R'] = Compute.Simple(this.values[24]);
-      oscillators_counter[computed_oscillators['W%R']] += 1;
+      computed_oscillators['WR'] = Compute.Simple(this.values[24]);
+      oscillators_counter[computed_oscillators['WR']] += 1;
     }
     // BBP
     if (this.values[26] != null) {

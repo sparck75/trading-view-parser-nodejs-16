@@ -1,6 +1,6 @@
 {
   "name": "trading-view-parser-nodejs-16",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Trading view trading recommends parse - NodeJS 16+",
   "engines": {
     "node": ">= 16"
@@ -37,12 +37,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sparck75/trading-view-parser-nodejs-16.git"
-  },  
+  },
   "author": "sparck75@live.ca",
   "homepage": "https://github.com/sparck75/trading-view-parser-nodejs-16#readme",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.4"
   },
   "volta": {
     "node": "16.13.2"
