@@ -1,6 +1,6 @@
 {
   "name": "trading-view-parser-nodejs-16",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Trading view trading recommends parse - NodeJS 16+",
   "engines": {
     "node": ">= 16"
