@@ -150,7 +150,7 @@ export class ParseTAResponse {
     const indicators = {};
     let i = 0;
     for (const indicator of REQUEST_INDICATORS) {
-      indicators[indicator.replace('{}', '').replace('[]', '').replace(/./g, '').replace('+', 'P').replace('-', 'N')] = this.values[i];
+      indicators[indicator.replace('{}', '').replace('[]', '').replace('.', '').replace('+', 'P').replace('-', 'N').replace('.', '').replace('.', '').replace('[', '').replace(']', '')] = this.values[i];
       i++;
     }
 
